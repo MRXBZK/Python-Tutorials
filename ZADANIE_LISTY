@@ -38,7 +38,6 @@ print("Sorry: " + delete_list_2 + " see you next time...")
 
 print("Still: " + str(guest_list))
 
-
-
+print("For my dinner i invite total of " + str(len(guest_list)) + " people's")
 
 
