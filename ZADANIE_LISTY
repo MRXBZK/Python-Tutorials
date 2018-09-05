@@ -1,0 +1,44 @@
+guest_list = ["Marek", "Kinga", "Jakub"]
+print("Hello " + guest_list[0] + " i'm invite u for a dinner!")
+print("Hello " + guest_list[1] + " i'm invite u for a dinner!")
+print("Hello " + guest_list[-1] + " i'm invite u for a dinner!")
+
+# Next part of program
+
+print ("Hello " + guest_list[0] + ", " + guest_list[1] + ". " + guest_list[-1] + " don't move to the party...")
+
+# Delete Jakub from list
+
+guest_list.remove("Jakub")
+#Another options is use del guest_list[0]
+
+#Next part of code
+
+guest_list.insert(2, "Darek")
+
+#Message for all people
+
+print ("Hello " + guest_list[0] + ", "  + guest_list[1] + ", "  + guest_list[-1] + " i invite all for dinner tonight. ")
+
+dinner_list = guest_list
+print(dinner_list)
+
+guest_list.insert(0, "Karolina")
+guest_list.insert(2, "Mariusz")
+guest_list.append("Mateusz")
+
+print("Hello " + str(dinner_list) + " i invite you're for dinner tonight.")
+print("Hello " + str(dinner_list) + " i have a problem, and now invite only two people.. i'm sorry...")
+
+delete_list = guest_list.pop(0)
+print("Sorry: " + delete_list + " see you next time...")
+
+delete_list_2 = guest_list.pop(1)
+print("Sorry: " + delete_list_2 + " see you next time...")
+
+print("Still: " + str(guest_list))
+
+
+
+
+
